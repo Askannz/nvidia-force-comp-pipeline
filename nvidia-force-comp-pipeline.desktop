@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Force Composition Pipeline (Nvidia)
+Comment="Simple script to enable \"Force Composition Pipeline\" on all monitors connected to an Nvidia card (fixes tearing)."
+Exec=/usr/share/nvidia-force-comp-pipeline/nvidia-force-comp-pipeline.py
