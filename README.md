@@ -33,6 +33,8 @@ sudo cp nvidia-force-comp-pipeline /usr/bin/
 sudo cp nvidia-force-comp-pipeline.desktop /etc/xdg/autostart/
 ```
 
+Arch-based distributions can also use this AUR package : https://aur.archlinux.org/packages/nvidia-force-comp-pipeline/
+
 This should work on any desktop environment that follows the Freedesktop specifications. The script will be automatically launched at session startup.
 
 ## Known issues
