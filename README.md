@@ -8,6 +8,8 @@ A simple script that auto-enables ForceCompositionPipeline on all monitors at st
 
 ForceCompositionPipeline is a special mode that can be enabled on monitors connected to Nvidia cards. It can be found in the Nvidia control panel : go to "X Server Display Configuration", select your monitor, click "Advanced".
 
+![Screenshot of the ForceCompositionPipeline option in the Nvidia control panel](screenshots/nvidia-settings.png)
+
 ### What does it do and why is it necessary ?
 
 From my (limited) understanding, this mode forces all desktop compositing in Xorg to go through the general-purpose graphics pipeline of the Nvidia chip, instead of a dedicated engine dedicated to display.
