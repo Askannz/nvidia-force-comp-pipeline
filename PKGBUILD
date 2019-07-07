@@ -14,5 +14,5 @@ package() {
     cd "${srcdir}/nvidia-force-comp-pipeline"
     install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
     install -Dm644 nvidia-force-comp-pipeline.desktop "$pkgdir/etc/xdg/autostart/nvidia-force-comp-pipeline.desktop"
-    install -Dm755 nvidia-force-comp-pipeline.py "$pkgdir/usr/share/nvidia-force-comp-pipeline/nvidia-force-comp-pipeline.py"
+    install -Dm755 nvidia-force-comp-pipeline "$pkgdir/usr/bin/nvidia-force-comp-pipeline"
 }
